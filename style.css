@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+body{
+    background: url(../../asset/DSC_0052-scaled.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+        
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header button{
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2px;
+}
+.color{
+    color: orange;
+}
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #000;
+}
+.head h5{
+    color: orange;
+    line-height: 20px;
+
+}
+.head h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+main p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.story{
+    background-color: transparent;
+    border: 0px solid;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    margin-left: 30px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(230deg);
+    border-radius: 20px;
+}
+.menu{
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(238, 99, 48);
+}
+
+
+
+
